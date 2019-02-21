@@ -1,0 +1,50 @@
+main{
+  background-color:lightgrey;
+  padding: 10px 10px;
+}
+footer{
+  background-color: lightblue;
+}
+hgroup{font-family: Helvetica}
+h1 { font-family: Helvetica
+ }
+h2 {text-align: center;
+   font-family: Helvetica;}
+h3 {text-align: center;
+font-family: Helvetica;}
+p{text-align: center;
+font-family: Helvetica;}
+#nav{font-family: Helvetica;}
+
+#nav{list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: lightblue;
+overflow: hidden;}
+
+ul#nav {float: center;}
+
+@media screen and (min-width:600px) {
+   
+#nav  li {
+    float: left;
+  }
+}
+
+li a {display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+padding: 14px 16px}
+
+li a:hover{
+  background-color:#61A3C4;
+}
+video{display: block;
+    width: 25%;
+    height: 80%;
+    margin: 0 auto;
+        }
+img{
+    width: 100%;
+}
