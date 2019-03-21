@@ -1,9 +1,11 @@
 main{
   background-color:lightgrey;
-  padding: 10px 10px;
+  padding: 1em 1em;
+  border-radius: 0.7em;
 }
 footer{
-  background-color: lightblue;
+    background-image: linear-gradient(to top, rgb(132, 180, 196) 0%, rgb(179, 222, 236) 100%);
+    border-radius: 0.7em;
 }
 hgroup{font-family: Helvetica}
 h1 { font-family: Helvetica
@@ -13,19 +15,33 @@ h2 {text-align: center;
 h3 {text-align: center;
 font-family: Helvetica;}
 p{text-align: center;
-font-family: Helvetica;}
-#nav{font-family: Helvetica;}
+font-family: Helvetica;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 1em;
+padding-bottom: 1em;}
 
 #nav{list-style-type: none;
 margin: 0;
 padding: 0;
-background-color: lightblue;
-overflow: hidden;}
+background-image: linear-gradient(to top,  rgb(132, 180, 196) 0%, rgb(179, 222, 236) 100%);
+overflow: hidden;
+font-family: Helvetica;
+border-radius: 0.7em;}
 
-ul#nav {float: center;}
+video{display: block;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+        }
 
-@media screen and (min-width:600px) {
-   
+@media screen and (min-width:40em) {
+video{
+        display: block;
+    width: 25%;
+    height: 80%;
+    margin: 0 auto;
+    }
 #nav  li {
     float: left;
   }
@@ -34,17 +50,16 @@ ul#nav {float: center;}
 li a {display: block;
 color: white;
 text-align: center;
+font-size: 1.5em;
+font-weight: bold;
 text-decoration: none;
-padding: 14px 16px}
+padding: 1em 1.5em}
 
 li a:hover{
   background-color:#61A3C4;
+  border-radius: 0.2em;
 }
-video{display: block;
-    width: 25%;
-    height: 80%;
-    margin: 0 auto;
-        }
+
 img{
     width: 100%;
 }
